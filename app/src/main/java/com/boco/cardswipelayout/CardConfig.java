@@ -1,0 +1,41 @@
+package com.boco.cardswipelayout;
+
+public class CardConfig {
+    /**
+     * 默认显示课件的卡片数量
+     */
+    public static final int DEFAULT_SHOW_ITEM = 3;
+    /**
+     * 默认缩放的比例
+     */
+    public static final float DEFAULT_SCALE = 0.1f;
+    /**
+     * 卡片Y轴偏移量按照14等分计算
+     */
+    public static final int DEFAULT_TRANSLATE_Y = 14;
+    /**
+     * 卡片滑动时默认倾斜的角度
+     */
+    public static final float DEFAULT_ROTATE_DEGREE = 15f;
+    /**
+     * 卡片滑动时不偏左不偏右
+     */
+    public static final int SWIPING_NONE = 1;
+    /**
+     * 卡片左滑时
+     */
+    public static final int SWIPING_LEFT = 4;
+    /**
+     * 卡片右滑时
+     */
+    public static final int SWIPING_RIGHT = 8;
+
+    /**
+     * 卡片从左边滑动时
+     */
+    public static final int SWIPED_LEFT = 1;
+    /**
+     * 卡片从右边滑动时
+     */
+    public static final int SWIPED_RIGHT = 4;
+}
